@@ -16,4 +16,4 @@ Tambien la encuentras en https://github.com/mrcbq/Memory_Game
 
 Diagrama de flujo:
 
-[Imgur](https://i.imgur.com/817mxdo.jpg)
+<img src="https://user-images.githubusercontent.com/83478996/138217964-42465660-8029-4a1f-b76c-c378d26f880b.jpeg" width="90%"></img> 

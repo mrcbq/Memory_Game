@@ -50,9 +50,18 @@ def run():
             exitos = exitos + 1
             print("has ganado ", exitos, " Veces \n")
             print("Estas en el nivel \n", dificultad, "\nCon un tiempo para ver la palabra de \n", tiempo)
-            if exitos %2 == 0:
+            if exitos == 2:
                 dificultad = 1
                 tiempo = tiempo + 1
+            if exitos >= 4:
+                palabra2 = generar_palabra(dificultad, facil, dificil)
+                print(palabra_escogida, palabra2)
+                esperar_tiempo(tiempo)
+                # clear()
+                palabra_ingresada2 = input("Ingrese la palabra 2\n")
+                if palabra_ingresada2 == palabra2:
+                    print("Palabra 2 correcta, Felicidades \n")
+
         else:
             print("Palabra Errada")
             if dificultad == 0:
